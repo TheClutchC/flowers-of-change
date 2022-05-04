@@ -1,0 +1,125 @@
+.page-layout {
+    background-color: greenyellow;
+}
+
+/*Top Section*/
+
+.header-container {
+    background-color: aqua;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+}
+
+.header-logo {
+    background-color: black;  
+    color: white;
+    font-size: 24px;
+}
+
+.header-links {
+    background-color: brown;
+    color: white;
+}
+
+/* possible more specific selectors for header-links, would need to add to html */
+
+.header-description {
+
+}
+
+.header-big-description {
+
+}
+
+.header-small-description {
+
+}
+
+.header-button {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px;
+}
+
+.header-image {
+    background-color: gray;
+    color: white;
+    border-style: dashed;
+    border-color: navajowhite;
+    width: 200px;
+    height: auto;
+}
+
+/*Upper-Mid Section*/
+
+.random-info-container {
+
+}
+
+.random-info-header {
+
+}
+
+.random-info-images {
+
+}
+
+.img-subtext {
+
+}
+
+/*Lower-Mid Section*/
+
+.exterior-quote-container {
+
+}
+
+.interior-quote-container {
+
+}
+
+.quote {
+
+}
+
+.who-quote {
+
+}
+
+
+/*CTA Section*/
+
+.cta-exterior-containers {
+
+}
+
+.cta-interior-containers {
+
+}
+
+.cta-button {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px;
+}
+
+/*Footer*/
+
+.footer-container {
+
+}
+
+.copyright-footer {
+
+}
+
+.image-credits {
+
+}

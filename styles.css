@@ -1,20 +1,44 @@
-.page-layout {
-    background-color: greenyellow;
+.exterior-page-layout {
+    background-color: rgb(78, 78, 78);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.interior-page-layout {
+    background-color: rgb(13, 13, 63);
+    color: white;
+    border-radius: 10px;
+    border-color: greenyellow;
+    border-style: solid;
+}
+
+img{
+    height:auto;
+    width: 20%;
+    padding: 5px;
+    background-color: crimson;
+}
+
+button {
+    border-color: greenyellow;
+    border-style: solid;
 }
 
 /*Top Section*/
 
 .header-container {
-    background-color: aqua;
+    background-color: rgb(78, 78, 78);
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
 }
 
 .header-logo {
     background-color: black;  
     color: white;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .header-links {
@@ -50,44 +74,77 @@
     color: white;
     border-style: dashed;
     border-color: navajowhite;
-    width: 200px;
+    width: 300px;
     height: auto;
 }
 
 /*Upper-Mid Section*/
 
 .random-info-container {
-
+background-color: black;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
 }
 
 .random-info-header {
-
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    background-color: black;
+    color: white;
+    
 }
 
 .random-info-images {
+    display: flex;
 
 }
 
 .img-subtext {
-
+background-color: brown;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: stretch;
 }
 
 /*Lower-Mid Section*/
 
 .exterior-quote-container {
-
+    background-color: rgb(78, 78, 78);
+    padding: 15px;
 }
 
 .interior-quote-container {
-
+    background-color: rgb(13, 13, 63);
+    border-radius: 20px;
+    border-color: greenyellow;
+    border-style: solid;
+    padding: 15px;
 }
 
 .quote {
+    font-size: 20px;
+    color: greenyellow;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
 
 }
 
 .who-quote {
-
+    font-weight: 800;
+    font-style: italic;
+    color: greenyellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 10px;
 }
 
 
@@ -113,13 +170,20 @@
 /*Footer*/
 
 .footer-container {
-
+    background-color: brown;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .copyright-footer {
 
+
 }
 
 .image-credits {
-
+text-align: center;
+padding-top: 10px;
 }

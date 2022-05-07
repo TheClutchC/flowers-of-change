@@ -19,8 +19,8 @@
 
 img{
     height:auto;
-    width: 20%;
-    padding: 5px;
+    width: 100%;
+    padding: .4em;
     background-color: crimson;
 }
 
@@ -74,12 +74,12 @@ button {
     padding: 4px;
 }
 
-.header-image {
+.image-1{
     background-color: gray;
     color: white;
     border-style: dashed;
     border-color: navajowhite;
-    width: 300px;
+    width: 20em;
     height: auto;
 }
 
@@ -106,6 +106,7 @@ align-items: center;
 
 .random-info-images {
     display: flex;
+    width: ;
     flex-direction: row;
     justify-content: space-around;
 

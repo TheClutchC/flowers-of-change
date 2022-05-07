@@ -79,7 +79,7 @@ button {
     color: white;
     border-style: dashed;
     border-color: navajowhite;
-    width: 20em;
+    width: 15em;
     height: auto;
 }
 
@@ -106,7 +106,6 @@ align-items: center;
 
 .random-info-images {
     display: flex;
-    width: ;
     flex-direction: row;
     justify-content: space-around;
 
@@ -116,6 +115,8 @@ align-items: center;
 background-color: brown;
 display: flex;
 flex-direction: row;
+justify-content: space-around;
+align-items: center;
 
 }
 

@@ -1,3 +1,7 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
 .exterior-page-layout {
     background-color: rgb(78, 78, 78);
     padding: 15px;
@@ -84,7 +88,8 @@ button {
 background-color: black;
 display: flex;
 flex-direction: column;
-justify-content: space-between;
+justify-content: space-around;
+align-content: center;
 align-items: center;
 }
 
@@ -99,6 +104,8 @@ align-items: center;
 
 .random-info-images {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
 }
 
@@ -106,8 +113,11 @@ align-items: center;
 background-color: brown;
 display: flex;
 flex-direction: row;
+text-align: left;
 justify-content: space-around;
-align-items: stretch;
+
+
+
 }
 
 /*Lower-Mid Section*/

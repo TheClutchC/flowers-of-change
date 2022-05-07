@@ -14,6 +14,7 @@
     border-radius: 10px;
     border-color: greenyellow;
     border-style: solid;
+    /*display: flex;*/ 
 }
 
 img{
@@ -89,11 +90,12 @@ background-color: black;
 display: flex;
 flex-direction: column;
 justify-content: space-around;
-align-content: center;
+/*align-content: center;*/
 align-items: center;
 }
 
 .random-info-header {
+    display: flex;
     text-align: center;
     font-size: 40px;
     text-decoration: underline;
@@ -113,10 +115,6 @@ align-items: center;
 background-color: brown;
 display: flex;
 flex-direction: row;
-text-align: left;
-justify-content: space-around;
-
-
 
 }
 

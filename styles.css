@@ -24,6 +24,15 @@ button {
     padding: 4px;
 }
 
+img {
+    width: 200px;
+    height: auto;
+    border: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: greenyellow;
+}
+
 /*Top Section*/
 
 .header-container {
@@ -44,8 +53,9 @@ button {
 }
 
 .header-logo {
-    font-size: 30px;
+    font-size: 40px;
     display: flex;
+    color: greenyellow;
 }
 
 /* possible more specific selectors for header-links, would need to add to html */
@@ -56,15 +66,36 @@ flex-wrap: wrap;
 }
 
 /*Random-Info Section*/
-.random-info-container {
+.random-info-header {
+    color: greenyellow;
+    font-size: 30px;
+    font-style: italic;
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin: 20px 150px 40px 150px;
 }
 
-.random-info-header {
-    background-color: brown;
-    font-size: 25px;
+.random-info-container {
+    display: flex;
+    padding: 5px;
+    margin: 5px;
 }
+
+.random-info-images {
+    display: flex;
+    text-align: center;
+}
+.img-subtext {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
 /*Lower-Mid Section*/
 
 .exterior-quote-container {

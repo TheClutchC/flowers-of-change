@@ -10,6 +10,7 @@
     border-radius: 15px;
     border-color: greenyellow;
     border-style: solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 button {
@@ -55,7 +56,15 @@ flex-wrap: wrap;
 }
 
 /*Random-Info Section*/
+.random-info-container {
+    display: flex;
+    flex-flow: column nowrap;
+}
 
+.random-info-header {
+    background-color: brown;
+    font-size: 25px;
+}
 /*Lower-Mid Section*/
 
 .exterior-quote-container {

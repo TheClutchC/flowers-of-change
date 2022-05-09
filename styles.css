@@ -10,7 +10,6 @@
     border-radius: 15px;
     border-color: greenyellow;
     border-style: solid;
-    padding: 15px;
 }
 
 button {
@@ -97,9 +96,27 @@ flex-wrap: wrap;
 
 
 /*CTA Section*/
+.cta-exterior-container {
+    padding: 25px;
+}
+
+.cta-interior-container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.cta-header {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.cta-description {
+    font-style: italic;
+    font-weight: 500;
+}
 
 /*Footer*/
-
 .footer-container {
     border-radius: 5px;
     display: flex;
@@ -107,8 +124,4 @@ flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     text-align: center;
-}   
-
-.image-credits {
-    padding-top: 10px;
 }

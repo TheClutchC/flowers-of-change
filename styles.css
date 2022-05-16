@@ -34,7 +34,14 @@ img {
 .image-2,
 .image-3,
 .image-4 {
-    background-color: brown;
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-color: greenyellow;
+    border-radius: 5px;
+    border-style: solid;
+    margin: 10px;
 }
 
 a {
@@ -115,6 +122,17 @@ a {
     align-items: center;
 }
 /*Random-Info Section*/
+
+.random-info-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.img-subtext {
+    padding: 10px;
+}
 
 /*Lower-Mid Section*/
 

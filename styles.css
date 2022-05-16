@@ -6,11 +6,13 @@
 
 .interior-page-layout {
     background-color: rgb(13, 13, 63);
-    color: white;
+    color: greenyellow;
     border-radius: 15px;
     border-color: greenyellow;
     border-style: solid;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 button {
@@ -22,82 +24,23 @@ button {
     font-size: 16px;
     font-weight: 600;
     padding: 4px;
-    margin: 0 auto;
 }
 
 img {
-    width: 200px;
-    height: auto;
-    border: 5px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: greenyellow;
+    max-width: 100%;
+}
+
+.image-2,
+.image-3,
+.image-4 {
+    background-color: brown;
 }
 
 /*Top Section*/
 
-.header-container {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 2%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-}
-
-.header {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
-
-.header-logo {
-    font-size: 40px;
-    display: flex;
-    color: greenyellow;
-}
-
-/* possible more specific selectors for header-links, would need to add to html */
-
-.header-description {
-    background-color: aqua;
-    width: 316px;
-    padding: 10px;
-    text-align: center;
-}
 
 /*Random-Info Section*/
-.random-info-header {
-    color: greenyellow;
-    font-size: 30px;
-    font-style: italic;
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin: 20px 150px 40px 150px;
-}
 
-.random-info-container {
-    display: flex;
-    padding: 5px;
-    margin: 5px;
-}
-
-.random-info-images {
-    display: flex;
-    text-align: center;
-}
-.img-subtext {
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-
-}
 
 /*Lower-Mid Section*/
 

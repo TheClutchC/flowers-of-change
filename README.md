@@ -9,6 +9,6 @@ Also, making consistent and concise git commit messages with the purpose of expl
 
 In summary, git commits for what you did, and comments for why.
 
-Challenge: Complete in three, possibly two days with good communication and just try to focus on the end goal of making the website in a timely manner with minimal time lost on menial tasks(super specific pictures, altering color combos, etc.)
+Challenge: Complete in three, possibly two weeks with good communication and just try to focus on the end goal of making the website in a timely manner with minimal time lost on menial tasks(super specific pictures, altering color combos, etc.)
 
 Go team!

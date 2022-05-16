@@ -11,8 +11,7 @@
     border-color: greenyellow;
     border-style: solid;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
-    flex-direction: column;
+   
 }
 
 button {
@@ -36,12 +35,70 @@ img {
     background-color: brown;
 }
 
+a {
+    text-decoration: none;
+    color: greenyellow;
+}
+
 /*Top Section*/
+.header {
+    color: greenyellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-decoration: none;
+}
+
+.header-logo {
+    font-size: 50px;
+    font-weight: 700;
+    padding: 10px;
+    display: flex;
+}
+
+.header-links {
+    padding: 10px;
+    border-left: 5px;
+    border-right: 5px;
+    border-color: greenyellow;
+    display: flex;
+}
+
+.header-link-1,
+.header-link-2 {
+    padding: 10px;
+    border-right-style: solid;
+}
+
+.header-link-3 {
+    padding: 10px;
+}
 
 
 /*Random-Info Section*/
+.header-description {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-shrink: 1;
+}
 
+.header-big-description {
+    font-size: 25px;
+    background-color: rgb(78, 78, 78);
+    border-radius: 5px;
+    padding: 5px;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+}
 
+.header-small-description {
+    max-width: 100%;
+}
 /*Lower-Mid Section*/
 
 .exterior-quote-container {
@@ -67,7 +124,6 @@ img {
     justify-content: center;
     align-items: center;
     padding: 25px;
-
 }
 
 .who-quote {

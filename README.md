@@ -1,4 +1,4 @@
-# landing_page
+# Flowers of Change
 Attempt at completing a project with another person in an organized manner
 
 A collab between TheClutchC and willow-luna
@@ -12,3 +12,5 @@ In summary, git commits for what you did, and comments for why.
 Challenge: Complete in three, possibly two weeks with good communication and just try to focus on the end goal of making the website in a timely manner with minimal time lost on menial tasks(super specific pictures, altering color combos, etc.)
 
 Go team!
+
+![image](https://github.com/TheClutchC/flowers-of-change/assets/102885927/71108fa1-1344-4683-88a3-9ae1556ed937)
